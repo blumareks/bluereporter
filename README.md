@@ -14,7 +14,7 @@ ex_3
 * setting up a Docker image on Bluemix (IBM Cloud) with MFP: [blumareks blog](http://blumareks.blogspot.com/2016/01/blue-reporter-v20-gets-swiftly-into.html)
 * setting up MobileFirst on Bluemix and accessing the resources: [blumareks blog](http://blumareks.blogspot.com/2016/01/blue-reporter-v20-gets-swiftly-into_26.html)
 
-## [ex_4](https://github.com/blumareks/bluereporter/tree/master/AppWithWatsonSentiment)
+## blueReporter [ex_4](https://github.com/blumareks/bluereporter/tree/master/AppWithWatsonSentiment)
 * this lab covers the cognitive analysis of Watson AlchemyAPI to get the sentiment of the submitted text (either the text is positive, negative or neutral) - check the blog for the details: [blumareks blog](http://blumareks.blogspot.com/2016/03/blue-reporter-v21-gets-cognitive-in.html)
 
 
