@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D76621A11CB06B240069A304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76621A01CB06B240069A304 /* AppDelegate.swift */; };
+		D76621A31CB06B240069A304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76621A21CB06B240069A304 /* ViewController.swift */; };
+		D76621A61CB06B240069A304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76621A41CB06B240069A304 /* Main.storyboard */; };
+		D76621A81CB06B240069A304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76621A71CB06B240069A304 /* Assets.xcassets */; };
+		D76621AB1CB06B240069A304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76621A91CB06B240069A304 /* LaunchScreen.storyboard */; };
+		D76621B91CB073910069A304 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76621B31CB073910069A304 /* Alamofire.framework */; };
+		D76621BA1CB073910069A304 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76621B41CB073910069A304 /* AlamofireObjectMapper.framework */; };
+		D76621BB1CB073910069A304 /* HTTPStatusCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76621B51CB073910069A304 /* HTTPStatusCodes.framework */; };
+		D76621BC1CB073910069A304 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76621B61CB073910069A304 /* ObjectMapper.framework */; };
+		D76621BD1CB073910069A304 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76621B71CB073910069A304 /* Starscream.framework */; };
+		D76621BE1CB073910069A304 /* WatsonDeveloperCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76621B81CB073910069A304 /* WatsonDeveloperCloud.framework */; };
+		D76621C01CB073BF0069A304 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D76621B31CB073910069A304 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D76621C11CB073C30069A304 /* AlamofireObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D76621B41CB073910069A304 /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D76621C21CB073C60069A304 /* HTTPStatusCodes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D76621B51CB073910069A304 /* HTTPStatusCodes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D76621C31CB073CA0069A304 /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D76621B61CB073910069A304 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D76621C41CB073CD0069A304 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D76621B71CB073910069A304 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D76621C51CB073D20069A304 /* WatsonDeveloperCloud.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D76621B81CB073910069A304 /* WatsonDeveloperCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D76621BF1CB073AE0069A304 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D76621C51CB073D20069A304 /* WatsonDeveloperCloud.framework in CopyFiles */,
+				D76621C41CB073CD0069A304 /* Starscream.framework in CopyFiles */,
+				D76621C31CB073CA0069A304 /* ObjectMapper.framework in CopyFiles */,
+				D76621C21CB073C60069A304 /* HTTPStatusCodes.framework in CopyFiles */,
+				D76621C11CB073C30069A304 /* AlamofireObjectMapper.framework in CopyFiles */,
+				D76621C01CB073BF0069A304 /* Alamofire.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D766219D1CB06B240069A304 /* WatsonVisualApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatsonVisualApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76621A01CB06B240069A304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D76621A21CB06B240069A304 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D76621A51CB06B240069A304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D76621A71CB06B240069A304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D76621AA1CB06B240069A304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D76621AC1CB06B240069A304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D76621B31CB073910069A304 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		D76621B41CB073910069A304 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		D76621B51CB073910069A304 /* HTTPStatusCodes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTTPStatusCodes.framework; path = Carthage/Build/iOS/HTTPStatusCodes.framework; sourceTree = "<group>"; };
+		D76621B61CB073910069A304 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		D76621B71CB073910069A304 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		D76621B81CB073910069A304 /* WatsonDeveloperCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatsonDeveloperCloud.framework; path = Carthage/Build/iOS/WatsonDeveloperCloud.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D766219A1CB06B240069A304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76621B91CB073910069A304 /* Alamofire.framework in Frameworks */,
+				D76621BA1CB073910069A304 /* AlamofireObjectMapper.framework in Frameworks */,
+				D76621BC1CB073910069A304 /* ObjectMapper.framework in Frameworks */,
+				D76621BD1CB073910069A304 /* Starscream.framework in Frameworks */,
+				D76621BB1CB073910069A304 /* HTTPStatusCodes.framework in Frameworks */,
+				D76621BE1CB073910069A304 /* WatsonDeveloperCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D76621941CB06B240069A304 = {
+			isa = PBXGroup;
+			children = (
+				D76621B21CB073470069A304 /* Framework */,
+				D766219F1CB06B240069A304 /* WatsonVisualApp */,
+				D766219E1CB06B240069A304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D766219E1CB06B240069A304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D766219D1CB06B240069A304 /* WatsonVisualApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D766219F1CB06B240069A304 /* WatsonVisualApp */ = {
+			isa = PBXGroup;
+			children = (
+				D76621A01CB06B240069A304 /* AppDelegate.swift */,
+				D76621A21CB06B240069A304 /* ViewController.swift */,
+				D76621A41CB06B240069A304 /* Main.storyboard */,
+				D76621A71CB06B240069A304 /* Assets.xcassets */,
+				D76621A91CB06B240069A304 /* LaunchScreen.storyboard */,
+				D76621AC1CB06B240069A304 /* Info.plist */,
+			);
+			path = WatsonVisualApp;
+			sourceTree = "<group>";
+		};
+		D76621B21CB073470069A304 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				D76621B31CB073910069A304 /* Alamofire.framework */,
+				D76621B41CB073910069A304 /* AlamofireObjectMapper.framework */,
+				D76621B51CB073910069A304 /* HTTPStatusCodes.framework */,
+				D76621B61CB073910069A304 /* ObjectMapper.framework */,
+				D76621B71CB073910069A304 /* Starscream.framework */,
+				D76621B81CB073910069A304 /* WatsonDeveloperCloud.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D766219C1CB06B240069A304 /* WatsonVisualApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D76621AF1CB06B240069A304 /* Build configuration list for PBXNativeTarget "WatsonVisualApp" */;
+			buildPhases = (
+				D76621991CB06B240069A304 /* Sources */,
+				D766219A1CB06B240069A304 /* Frameworks */,
+				D766219B1CB06B240069A304 /* Resources */,
+				D76621BF1CB073AE0069A304 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatsonVisualApp;
+			productName = WatsonVisualApp;
+			productReference = D766219D1CB06B240069A304 /* WatsonVisualApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D76621951CB06B240069A304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Marek Sadowski";
+				TargetAttributes = {
+					D766219C1CB06B240069A304 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D76621981CB06B240069A304 /* Build configuration list for PBXProject "WatsonVisualApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D76621941CB06B240069A304;
+			productRefGroup = D766219E1CB06B240069A304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D766219C1CB06B240069A304 /* WatsonVisualApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D766219B1CB06B240069A304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76621AB1CB06B240069A304 /* LaunchScreen.storyboard in Resources */,
+				D76621A81CB06B240069A304 /* Assets.xcassets in Resources */,
+				D76621A61CB06B240069A304 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D76621991CB06B240069A304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76621A31CB06B240069A304 /* ViewController.swift in Sources */,
+				D76621A11CB06B240069A304 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D76621A41CB06B240069A304 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76621A51CB06B240069A304 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D76621A91CB06B240069A304 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76621AA1CB06B240069A304 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D76621AD1CB06B240069A304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D76621AE1CB06B240069A304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D76621B01CB06B240069A304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = WatsonVisualApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.WatsonVisualApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D76621B11CB06B240069A304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = WatsonVisualApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.WatsonVisualApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D76621981CB06B240069A304 /* Build configuration list for PBXProject "WatsonVisualApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76621AD1CB06B240069A304 /* Debug */,
+				D76621AE1CB06B240069A304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D76621AF1CB06B240069A304 /* Build configuration list for PBXNativeTarget "WatsonVisualApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76621B01CB06B240069A304 /* Debug */,
+				D76621B11CB06B240069A304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D76621951CB06B240069A304 /* Project object */;
+}
