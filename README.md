@@ -1,4 +1,12 @@
-# bluereporter
+# Cognitive Labs using SWIFT/iOS
+
+## LAB 1 [AppWithWatsonSentiment](https://github.com/blumareks/bluereporter/tree/master/AppWithWatsonSentiment)
+* this lab covers the cognitive analysis of Watson AlchemyAPI to get the sentiment of the submitted text (either the text is positive, negative or neutral) - check the blog for the details: [blumareks blog](https://ibm.biz/Bd4fAE)
+
+## LAB 2 [AppWithWatsonVisualAnalysis](https://github.com/blumareks/bluereporter/tree/master/AppWithWatsonVisualAnalysis)
+* this lab covers the cognitive analysis of Watson AlchemyAPI to get the Visual Analysis of the submited picture URL (gives classification of the picutre: a person, food, a sport, etc. ) - check the blog for the details: [blumareks blog](https://ibm.biz/Bd4fAz)
+
+## bluereporter
 The native app connecting to cloud resources for data storage, cognitive analytics, etc. used for hacks in mobile &amp; cloud development. Please follow the [blumareks blog](http://blumareks.blogspot.com)
 
 ## blueReporter_ex1
@@ -13,10 +21,6 @@ ex_2
 ex_3
 * setting up a Docker image on Bluemix (IBM Cloud) with MFP: [blumareks blog](http://blumareks.blogspot.com/2016/01/blue-reporter-v20-gets-swiftly-into.html)
 * setting up MobileFirst on Bluemix and accessing the resources: [blumareks blog](http://blumareks.blogspot.com/2016/01/blue-reporter-v20-gets-swiftly-into_26.html)
-
-## [AppWithWatsonSentiment](https://github.com/blumareks/bluereporter/tree/master/AppWithWatsonSentiment)
-* this lab covers the cognitive analysis of Watson AlchemyAPI to get the sentiment of the submitted text (either the text is positive, negative or neutral) - check the blog for the details: [blumareks blog](http://blumareks.blogspot.com/2016/03/blue-reporter-v21-gets-cognitive-in.html)
-
 
 Shall you have any issues - please comment here, or on the [blumareks' blog](http://blumareks.blogspot.com).
 Please follow me on the twitter<br>
