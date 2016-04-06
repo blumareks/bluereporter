@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D71E8C291CB466C800AEF7E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71E8C281CB466C800AEF7E1 /* AppDelegate.swift */; };
+		D71E8C2B1CB466C800AEF7E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71E8C2A1CB466C800AEF7E1 /* ViewController.swift */; };
+		D71E8C2E1CB466C800AEF7E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71E8C2C1CB466C800AEF7E1 /* Main.storyboard */; };
+		D71E8C301CB466C800AEF7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71E8C2F1CB466C800AEF7E1 /* Assets.xcassets */; };
+		D71E8C331CB466C800AEF7E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71E8C311CB466C800AEF7E1 /* LaunchScreen.storyboard */; };
+		D71E8C411CB4789100AEF7E1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71E8C3B1CB4789100AEF7E1 /* Alamofire.framework */; };
+		D71E8C421CB4789100AEF7E1 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71E8C3C1CB4789100AEF7E1 /* AlamofireObjectMapper.framework */; };
+		D71E8C431CB4789100AEF7E1 /* HTTPStatusCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71E8C3D1CB4789100AEF7E1 /* HTTPStatusCodes.framework */; };
+		D71E8C441CB4789100AEF7E1 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71E8C3E1CB4789100AEF7E1 /* ObjectMapper.framework */; };
+		D71E8C451CB4789100AEF7E1 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71E8C3F1CB4789100AEF7E1 /* Starscream.framework */; };
+		D71E8C461CB4789100AEF7E1 /* WatsonDeveloperCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71E8C401CB4789100AEF7E1 /* WatsonDeveloperCloud.framework */; };
+		D71E8C481CB4791100AEF7E1 /* WatsonDeveloperCloud.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D71E8C401CB4789100AEF7E1 /* WatsonDeveloperCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D71E8C491CB4791500AEF7E1 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D71E8C3F1CB4789100AEF7E1 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D71E8C4A1CB4791900AEF7E1 /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D71E8C3E1CB4789100AEF7E1 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D71E8C4B1CB4791D00AEF7E1 /* HTTPStatusCodes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D71E8C3D1CB4789100AEF7E1 /* HTTPStatusCodes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D71E8C4C1CB4792100AEF7E1 /* AlamofireObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D71E8C3C1CB4789100AEF7E1 /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D71E8C4D1CB4792400AEF7E1 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D71E8C3B1CB4789100AEF7E1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D71E8C471CB4790600AEF7E1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D71E8C4D1CB4792400AEF7E1 /* Alamofire.framework in CopyFiles */,
+				D71E8C4C1CB4792100AEF7E1 /* AlamofireObjectMapper.framework in CopyFiles */,
+				D71E8C4B1CB4791D00AEF7E1 /* HTTPStatusCodes.framework in CopyFiles */,
+				D71E8C4A1CB4791900AEF7E1 /* ObjectMapper.framework in CopyFiles */,
+				D71E8C491CB4791500AEF7E1 /* Starscream.framework in CopyFiles */,
+				D71E8C481CB4791100AEF7E1 /* WatsonDeveloperCloud.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D71E8C251CB466C800AEF7E1 /* WatsonTTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatsonTTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71E8C281CB466C800AEF7E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D71E8C2A1CB466C800AEF7E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D71E8C2D1CB466C800AEF7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D71E8C2F1CB466C800AEF7E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D71E8C321CB466C800AEF7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D71E8C341CB466C800AEF7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71E8C3B1CB4789100AEF7E1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		D71E8C3C1CB4789100AEF7E1 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		D71E8C3D1CB4789100AEF7E1 /* HTTPStatusCodes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTTPStatusCodes.framework; path = Carthage/Build/iOS/HTTPStatusCodes.framework; sourceTree = "<group>"; };
+		D71E8C3E1CB4789100AEF7E1 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		D71E8C3F1CB4789100AEF7E1 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		D71E8C401CB4789100AEF7E1 /* WatsonDeveloperCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatsonDeveloperCloud.framework; path = Carthage/Build/iOS/WatsonDeveloperCloud.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D71E8C221CB466C800AEF7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71E8C411CB4789100AEF7E1 /* Alamofire.framework in Frameworks */,
+				D71E8C421CB4789100AEF7E1 /* AlamofireObjectMapper.framework in Frameworks */,
+				D71E8C441CB4789100AEF7E1 /* ObjectMapper.framework in Frameworks */,
+				D71E8C451CB4789100AEF7E1 /* Starscream.framework in Frameworks */,
+				D71E8C431CB4789100AEF7E1 /* HTTPStatusCodes.framework in Frameworks */,
+				D71E8C461CB4789100AEF7E1 /* WatsonDeveloperCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D71E8C1C1CB466C800AEF7E1 = {
+			isa = PBXGroup;
+			children = (
+				D71E8C3A1CB4785E00AEF7E1 /* framework */,
+				D71E8C271CB466C800AEF7E1 /* WatsonTTS */,
+				D71E8C261CB466C800AEF7E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D71E8C261CB466C800AEF7E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71E8C251CB466C800AEF7E1 /* WatsonTTS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71E8C271CB466C800AEF7E1 /* WatsonTTS */ = {
+			isa = PBXGroup;
+			children = (
+				D71E8C281CB466C800AEF7E1 /* AppDelegate.swift */,
+				D71E8C2A1CB466C800AEF7E1 /* ViewController.swift */,
+				D71E8C2C1CB466C800AEF7E1 /* Main.storyboard */,
+				D71E8C2F1CB466C800AEF7E1 /* Assets.xcassets */,
+				D71E8C311CB466C800AEF7E1 /* LaunchScreen.storyboard */,
+				D71E8C341CB466C800AEF7E1 /* Info.plist */,
+			);
+			path = WatsonTTS;
+			sourceTree = "<group>";
+		};
+		D71E8C3A1CB4785E00AEF7E1 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				D71E8C3B1CB4789100AEF7E1 /* Alamofire.framework */,
+				D71E8C3C1CB4789100AEF7E1 /* AlamofireObjectMapper.framework */,
+				D71E8C3D1CB4789100AEF7E1 /* HTTPStatusCodes.framework */,
+				D71E8C3E1CB4789100AEF7E1 /* ObjectMapper.framework */,
+				D71E8C3F1CB4789100AEF7E1 /* Starscream.framework */,
+				D71E8C401CB4789100AEF7E1 /* WatsonDeveloperCloud.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D71E8C241CB466C800AEF7E1 /* WatsonTTS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71E8C371CB466C800AEF7E1 /* Build configuration list for PBXNativeTarget "WatsonTTS" */;
+			buildPhases = (
+				D71E8C211CB466C800AEF7E1 /* Sources */,
+				D71E8C221CB466C800AEF7E1 /* Frameworks */,
+				D71E8C231CB466C800AEF7E1 /* Resources */,
+				D71E8C471CB4790600AEF7E1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatsonTTS;
+			productName = WatsonTTS;
+			productReference = D71E8C251CB466C800AEF7E1 /* WatsonTTS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D71E8C1D1CB466C800AEF7E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Marek Sadowski";
+				TargetAttributes = {
+					D71E8C241CB466C800AEF7E1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D71E8C201CB466C800AEF7E1 /* Build configuration list for PBXProject "WatsonTTS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D71E8C1C1CB466C800AEF7E1;
+			productRefGroup = D71E8C261CB466C800AEF7E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D71E8C241CB466C800AEF7E1 /* WatsonTTS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D71E8C231CB466C800AEF7E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71E8C331CB466C800AEF7E1 /* LaunchScreen.storyboard in Resources */,
+				D71E8C301CB466C800AEF7E1 /* Assets.xcassets in Resources */,
+				D71E8C2E1CB466C800AEF7E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D71E8C211CB466C800AEF7E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71E8C2B1CB466C800AEF7E1 /* ViewController.swift in Sources */,
+				D71E8C291CB466C800AEF7E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D71E8C2C1CB466C800AEF7E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D71E8C2D1CB466C800AEF7E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D71E8C311CB466C800AEF7E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D71E8C321CB466C800AEF7E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D71E8C351CB466C800AEF7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D71E8C361CB466C800AEF7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D71E8C381CB466C800AEF7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = WatsonTTS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.WatsonTTS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D71E8C391CB466C800AEF7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = WatsonTTS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.WatsonTTS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D71E8C201CB466C800AEF7E1 /* Build configuration list for PBXProject "WatsonTTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71E8C351CB466C800AEF7E1 /* Debug */,
+				D71E8C361CB466C800AEF7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71E8C371CB466C800AEF7E1 /* Build configuration list for PBXNativeTarget "WatsonTTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71E8C381CB466C800AEF7E1 /* Debug */,
+				D71E8C391CB466C800AEF7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D71E8C1D1CB466C800AEF7E1 /* Project object */;
+}
