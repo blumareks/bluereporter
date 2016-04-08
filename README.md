@@ -7,7 +7,7 @@
 * this lab covers the cognitive analysis of Watson AlchemyAPI to get the Visual Analysis of the submited picture URL (gives classification of the picutre: a person, food, a sport, etc. ) - check the blog for the details: [blumareks blog](https://ibm.biz/Bd4fAz)
 
 ## LAB 3 [AppWithWatsonTTS](https://github.com/blumareks/bluereporter/tree/master/AppWithWatsonTTS)
-* this lab covers the cognitive Text To Speech Watson service - check the blog for the details: [blumareks blog](ibm.biz/Bd4fCW)
+* this lab covers the cognitive Text To Speech Watson service - check the blog for the details: [blumareks blog](https://ibm.biz/Bd4fCW)
 
 ## bluereporter
 The native app connecting to cloud resources for data storage, cognitive analytics, etc. used for hacks in mobile &amp; cloud development. Please follow the [blumareks blog](http://blumareks.blogspot.com)
