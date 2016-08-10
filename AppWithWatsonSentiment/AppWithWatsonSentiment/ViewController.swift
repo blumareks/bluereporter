@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         
         //step 1: add instance by APIKEY
         if alchemyApiInstance == nil {
-            alchemyApiInstance = AlchemyLanguage(apiKey: "844de29ef7761fd309c079582e53bc304c10829f")
+            alchemyApiInstance = AlchemyLanguage(apiKey: "<get the apiKey from the Bluemix - Watson - AlchemyApi services created for your account>")
         }
         
         //step 2: call the API
